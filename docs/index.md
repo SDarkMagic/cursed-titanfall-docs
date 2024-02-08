@@ -16,6 +16,7 @@ This mod is divided into different sub modules to allow for easier control of th
 
 ## Features
 *Individual feature listings can be found along side the corresponding module documentation*
+
 *Additionally, a list of planned features and ones that may not yet be in the documentation can be found in the [[#Todo]] section*
 
 ```dataviewjs

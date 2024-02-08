@@ -6,6 +6,8 @@ tags:
   - scripts
   - modding
 ---
+# Core
+---------
 Commonly utilized functions and structs that may be required by any of the other modules in the mod.
 
 # `sh_datatypes.nut`

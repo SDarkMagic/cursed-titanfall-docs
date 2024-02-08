@@ -6,6 +6,8 @@ tags:
   - scripts
   - modding
 ---
+# Weapons
+--------------
 Responsible for the individual weapon code changes and registering them as callbacks via the methods defined in [[Framework#Weapon Callbacks|Weapon Callbacks]]
 If a weapon does not have a unique script in the vanilla game, the script for it will be added here rather than creating a new one in [[Framework]]
 

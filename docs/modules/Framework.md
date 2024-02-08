@@ -6,6 +6,8 @@ tags:
   - squirrel
   - scripts
 ---
+# Framework
+-----------------
 Builds off of the features implemented by [[Core]] and adds a majority of the callback registration functions and relevant implementations that are used by the rest of the mod.
 # Weapon Callbacks
 Several weapons have had callbacks for projectile collision or player primary attack added to them. The name scheme for the callback registration functions is `AddCallback_OnProjectileCollision_weapon_<weapon_internal_name>` and `AddCallback_OnPrimaryAttackPlayer_weapon_<weapon_internal_name>` where `<weapon_internal_name>` is the unique identifier for the weapon, such as `epg` or `softball`

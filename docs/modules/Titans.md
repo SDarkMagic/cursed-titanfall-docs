@@ -1,4 +1,6 @@
-# Features
+# Titans
+------------
+## Features
 ----------------
 ### Monarch
 - Activating upgrade core 3 will attempt to drop a reaper onto the player's location. This will be warned with both a text popup **AND** Viper's voiceline of "Dodge this" playing. You *must* use your dash or be sprinting at time of activation in order to avoid being crushed
