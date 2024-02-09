@@ -55,3 +55,8 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - No longer damages spectres
 - Will attempt to hack any spectres hit by its explosion
 	- *Note*: The hitbox for this is not always consistent, and if the spectres get knocked down by the blast, they most likely will not be hacked
+### Charge Rifle
+- Trigger must be held down after firing for it to actually deal damage
+- Pushes the user backwards when fired
+### Thunderbolt
+- Drags enemies along with the projectile now

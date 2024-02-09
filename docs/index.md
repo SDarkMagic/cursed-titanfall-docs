@@ -37,6 +37,7 @@ dv
 - [x] Devotion firerate is too high; Causes server side warning, and must be under .2f
 - [ ] Player dies to spitfire failure to get load screen tip
 - [x] Elite northstar trying to execute player
+- [ ] Boss titan reset health loop attempting to set health even if the entity is dead
 - [ ] Server boot error:
  ```
 [05:12:29] [NORTHSTAR] [info] Running custom SERVER script callback "S2S_DropshipInit"
@@ -59,8 +60,8 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
-- [ ] Setup exclusively server side voice lines for boss titan AI events
-- [ ] MGL shoots ticks
+- [x] Setup exclusively server side voice lines for boss titan AI events
+- [x] MGL shoots ticks
 - [ ] Cold war shoots batteries sometimes
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
 - [ ] Lock arc field ronin to core activation
@@ -102,7 +103,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Make Viper thrusters default flight speed for northstar hover and flightcore. Change viper thrusters to convert hover into a toggle ability with cooldown based on a multiplier of how long you were airborn for. Additionally allow dodging while airborn with viper thrusters
 - [ ] Legion shoots thermite for bullets
 - [ ] arc grenade hacks reapers. Look at leech_spectres function for implementation inspiration
-- [ ] Give thunderbolt projectiles a gravitational field similar to grav stars (currently just have arc titan emp field applied to them will need to remove)
+- [x] Give thunderbolt projectiles a gravitational field similar to grav stars (currently just have arc titan emp field applied to them will need to remove)
 - [x] Legion shields absorb shots to refill mag. May need to be based on damage absorbed rather than individual shot count esp because of scorch thermite projectiles
 
 - [X] Wingman converted to hitscan. Instant teleport the player to the targetted location if in bounds.
