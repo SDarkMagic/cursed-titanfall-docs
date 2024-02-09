@@ -19,15 +19,6 @@ This mod is divided into different sub modules to allow for easier control of th
 
 *Additionally, a list of planned features and ones that may not yet be in the documentation can be found in the [[#Todo]] section*
 
-```dataviewjs
-dv.list()
-```
-```dataviewjs
-dv.current()
-```
-```dataviewjs
-dv
-```
 ## Known Bugs
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
 - [ ] wingman elite failing to handle on fire properly
