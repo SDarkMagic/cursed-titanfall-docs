@@ -17,13 +17,14 @@ This mod is divided into different sub modules to allow for easier control of th
 ## Features
 *Individual feature listings can be found along side the corresponding module documentation*
 
-*Additionally, a list of planned features and ones that may not yet be in the documentation can be found in the [[#Todo]] section*
+*Additionally, a list of planned feature ideas and ones that may not yet be in the documentation can be found in the [[#Todo]] section*
 
+Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Module]] features? Suggest a new feature or idea to add to the mod through [this google form](https://forms.gle/2BXSoWrouU7uV8Hw6)
 ## Known Bugs
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
 - [ ] wingman elite failing to handle on fire properly
 - [ ] Wingman elite still using modified kraber OnPrimaryAttack function
-- [ ] Viper insta-dying on kodai
+- [x] Viper insta-dying on kodai
 - [ ] Devotion missing reload activity on server causing a crash
 - [x] Devotion firerate is too high; Causes server side warning, and must be under .2f
 - [ ] Player dies to spitfire failure to get load screen tip
@@ -70,11 +71,11 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Warp core titan
 - [ ] Allow nuke eject to trigger before doomed state
 - [ ] Smr missiles delayed immediately after firing. Stall in air then rapidly accelerate to deal more damage.
-- [ ] Allow archer to lock onto players
+- [ ] Allow archer to lock onto players (This may need to be a client side change unfortunately)
 - [ ] Smart pistol misses every shot while locked on
 - [x] Lower probability of p2016 insta teamkilling. Add logic to fired projectile instead of the gun.
 - [ ] Tighten eva8 spread. Shift fire offset to br akward. More ideal have the reticle be passed through a perspective transform to align with whatever plane the player is currently targetting. Projectiles shoot at an angle rather than just starting from an offset.
-- [ ] A-wall no longer a deployable. Attach to player position and offset forward. Remain active for a set duration shrink size partially
+- [ ] A-wall no longer a deployable. Attach to player position and offset forward. Remain active for a set duration shrink size partially (Zanieon has already figured this out, either ask for details or wait until it gets added to fork)
 - [x] Energy syphon causes monarch's shots to take hp from hit enemies and fill a meter. Shooting teammates will deplete this meter and refill their HP a respective amount
 - [x] Arc grenade auto-hacks spectres
 - [ ] Add the 30-30 with shattercaps. 3 body shots to a pilot to kill, headshots are oneshot (while adsed) if client side version of the mod is installed, use the actual 30-30 model. Otherwise use g2 model
