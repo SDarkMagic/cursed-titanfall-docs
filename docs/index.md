@@ -23,6 +23,7 @@ Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Modu
 ## Known Bugs
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
 - [ ] wingman elite failing to handle on fire properly
+- [ ] boss titans not spawning when more than one is present in the waves
 - [ ] Wingman elite still using modified kraber OnPrimaryAttack function
 - [x] Viper insta-dying on kodai
 - [ ] Devotion missing reload activity on server causing a crash
@@ -56,7 +57,6 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [x] MGL shoots ticks
 - [ ] Cold war shoots batteries sometimes
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
-- [ ] Lock arc field ronin to core activation
 - [ ] Add monarch heal rounds to heal score callback
 - [ ] Add client side RUI for energy transfer health pool
 - [x] Ronin with Thunderstorm passive is now an arc titan
@@ -69,6 +69,9 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 	- [ ] Cloak ability for tactical
 	- [ ] Primary is a close range explosion? Potentially just punching but add an explosion on impact?
 - [ ] Warp core titan
+- [ ] DMR shoots ion laser
+- [ ] Allow thunderbolt projectile to drag player if they have extended mag equipped
+- [ ] Allow lockons to boss titans (probably a client side change)
 - [ ] Allow nuke eject to trigger before doomed state
 - [ ] Smr missiles delayed immediately after firing. Stall in air then rapidly accelerate to deal more damage.
 - [ ] Allow archer to lock onto players (This may need to be a client side change unfortunately)
@@ -79,8 +82,6 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [x] Energy syphon causes monarch's shots to take hp from hit enemies and fill a meter. Shooting teammates will deplete this meter and refill their HP a respective amount
 - [x] Arc grenade auto-hacks spectres
 - [ ] Add the 30-30 with shattercaps. 3 body shots to a pilot to kill, headshots are oneshot (while adsed) if client side version of the mod is installed, use the actual 30-30 model. Otherwise use g2 model
-- [ ] Legion gun functions similarly to updated devotion.
-- [ ] Northstar shoots ion lasers at full railgun charge. Last pip takes slightly longer to charge? **NO** 
 - [ ] Satchel becomes a proximity mine
 - [ ] Mozambique projectiles grow with travel time
 - [ ] Add guardian blocks after weapon callback loops
@@ -89,7 +90,6 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [x] Add dodge message announcement when upgrade 3 is triggered
 - [x] CAR smg applies knockback to entities hit by shots if they are movable
 - [ ] Ion gets shield mechanic similar to Asuka R# but uses energy instead of mana
-- [ ] Give Monarch phase dash as an optional upgrade core
 - [ ] Reapers can spawn ticks in attrition
 - [ ] Northstar plasma railgun at max charge. Passively charges strength after firing. Shorter wait time causes less powerful shot
 - [ ] Make Viper thrusters default flight speed for northstar hover and flightcore. Change viper thrusters to convert hover into a toggle ability with cooldown based on a multiplier of how long you were airborn for. Additionally allow dodging while airborn with viper thrusters
