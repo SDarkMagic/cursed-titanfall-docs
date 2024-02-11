@@ -46,6 +46,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 [05:12:30] [NORTHSTAR] [info] Running custom SERVER script callback "DropPodSpawn_Init"
 ```
 - [x] Spitfire broke again - Ion vortex shield refire issue when attempting to attach projectile to enemies
+- [ ] Tether traps instantly dooming nuke titans
 - [ ] Arc Titans causing crashes after giving ronin passive
       ```
     [02:29:14] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Entity is null
@@ -56,10 +57,13 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [x] Setup exclusively server side voice lines for boss titan AI events
 - [x] MGL shoots ticks
 - [ ] Cold war shoots batteries sometimes
+- [ ] Replace an AR with flightcore rockets
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
 - [ ] Add monarch heal rounds to heal score callback
 - [ ] Add client side RUI for energy transfer health pool
 - [x] Ronin with Thunderstorm passive is now an arc titan
+- [ ] Phoenix kit for scorch
+- [x] Add 25 tick limit
 - [ ] Nuke Core titan
 	- [ ] Core ability is equivalent to a nuke eject explosion, however the titan does not get destroyed
 	- [ ] thermal shield for tactical?
@@ -70,7 +74,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 	- [ ] Primary is a close range explosion? Potentially just punching but add an explosion on impact?
 - [ ] Warp core titan
 - [ ] DMR shoots ion laser
-- [ ] Allow thunderbolt projectile to drag player if they have extended mag equipped
+- [x] Allow thunderbolt projectile to drag player if they have pro screen equipped
 - [ ] Allow lockons to boss titans (probably a client side change)
 - [ ] Allow nuke eject to trigger before doomed state
 - [ ] Smr missiles delayed immediately after firing. Stall in air then rapidly accelerate to deal more damage.
@@ -92,7 +96,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Ion gets shield mechanic similar to Asuka R# but uses energy instead of mana
 - [ ] Reapers can spawn ticks in attrition
 - [ ] Northstar plasma railgun at max charge. Passively charges strength after firing. Shorter wait time causes less powerful shot
-- [ ] Make Viper thrusters default flight speed for northstar hover and flightcore. Change viper thrusters to convert hover into a toggle ability with cooldown based on a multiplier of how long you were airborn for. Additionally allow dodging while airborn with viper thrusters
+- [x] Make Viper thrusters default flight speed for northstar hover and flightcore. Change viper thrusters to convert hover into a toggle ability with cooldown based on a multiplier of how long you were airborn for. Additionally allow dodging while airborn with viper thrusters
 - [ ] Legion shoots thermite for bullets
 - [ ] arc grenade hacks reapers. Look at leech_spectres function for implementation inspiration
 - [x] Give thunderbolt projectiles a gravitational field similar to grav stars (currently just have arc titan emp field applied to them will need to remove)

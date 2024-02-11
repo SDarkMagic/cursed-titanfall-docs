@@ -60,3 +60,4 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Pushes the user backwards when fired
 ### Thunderbolt
 - Drags enemies along with the projectile now
+- Equipping the Pro Screen causes the user to also be pulled along with the projectile

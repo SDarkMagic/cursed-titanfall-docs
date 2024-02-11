@@ -15,7 +15,7 @@
 - The tempered plating kit now provides scorch with shield regeneration when standing in your own fire. **Please note:** You can still take damage from your incendiary traps explosion if using them to recharge shields. This explosion has a hitbox at both the start and end of the traps burn time
 ### Northstar
 - The hover movement speed that was previously provided by the viper thruster's kit is now the default movement speed when using hover
-- Viper thrusters now converts the hover ability into a toggle with a max flight time of 30 seconds. **WARNING** Currently there is a known bug where using flight core while having this kit equipped will cause you to get stuck in the hover state. This means that you cannot disembark from your titan or return to the ground. At the current time, it is recommended you do not run this kit since the only way to disembark your titan is now to force eject.
+- Viper thrusters now converts the hover ability into a toggle with a max flight time of 30 seconds.
 ### Ronin
 - The thunderstorm kit now additionally gives ronin an arc field similar to what the arc titans from frontier defense have
 - Performing an execution on an enemy titan as ronin will now give the player performing the execution a battery upon completion, similar to how monarch's energy thief kit works
