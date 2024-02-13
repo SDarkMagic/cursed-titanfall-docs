@@ -38,6 +38,11 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Converted to fully automatic
 - Modified damage. Two body shots should now kill a pilot at full health
 - Lowered fire rate slightly
+### DMR
+- Deals increased damage
+- Capable of damaging titans regardless of whether it's a crit hit
+- On client uses ion laser effect and sounds for firing
+- hitscan
 ### Spitfire
 - Creates a thermite burn source on impact
 - Canonically accurate to the name now
@@ -49,10 +54,12 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - *Warning*: Due to how the game handles the Wingman Elite, it shares the same fire function with the kraber. This means this instakill chance occurs when firing it. I plan on fixing this in a later update
 ### P2016
 - No longer does damage when hitting an enemy
+- Has a random chance of killing the user and publicly shaming them when hitting an enemy (1/5)
 - When hitting an enemy, there is a 1/~48 chance to kill every enemy on the enemy team excluding titans. Titans take one entire health bar worth of damage, meaning if they are doomed they will die, otherwise they become doomed.
 	- *Warning*: Due to how the functions used internally to get the enemies work, if an entity is being spawned when this kill all event occurs, it may cause a server crash
 ### Arc Grenade
-- No longer damages spectres
+- No longer damages spectres or reapers
+- Hacks hit reapers
 - Will attempt to hack any spectres hit by its explosion
 	- *Note*: The hitbox for this is not always consistent, and if the spectres get knocked down by the blast, they most likely will not be hacked
 ### Charge Rifle

@@ -16,6 +16,9 @@ tags:
 	- Forward Base Kodai
 	- Homestead
 	- Eden
+	- Boomtown
+	- Black Water Canal
+	- Wargames
 - Modified wave layouts and/or harvester locations on some maps
 	- Complex
 ## Bosses
