@@ -48,6 +48,9 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 ```
 - [x] Spitfire broke again - Ion vortex shield refire issue when attempting to attach projectile to enemies
 - [ ] Tether traps instantly dooming nuke titans?
+- [ ] Enemy spawned prowlers cause crash on wave reset
+- [ ] *FUNCTION [RemoveMod()] weapons/mp_titanability_hover.nut line [74]
+*FUNCTION [unknown()] weapons/mp_titanability_hover.nut line [141] - entity is null
 - [x] Arc Titans causing crashes after giving ronin passive (have not been able to replicate since)
       ```
     [02:29:14] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Entity is null
@@ -55,6 +58,10 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
+- [ ] Northstar gets cloaking ability
+- [ ] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
+- [ ] Give tone passive sonar in a radius around her
+- [ ] give thunderbolt `DF_RAGDOLL`
 - [ ] Cold war shoots batteries sometimes
 - [ ] Replace an AR with flightcore rockets
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
@@ -93,6 +100,13 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Hemlok shoots multiple bursts simultaneously (equivalent to one mag?) maybe give shotgun spread
 - [ ] Add boss titans to more FD maps
 - [ ] Graviton lance
+	- [ ] Model import
+	- [ ] Tracer effects
+	- [ ] muzzle flash effects
+	- [ ] Grenade model/effects?
+	- [ ] General functionality
+- [ ] Reaper global stack
+- [ ] Ronin gets to parry
 - [x] Add 25 tick limit
 - [x] Ronin with Thunderstorm passive is now an arc titan
 - [x] Lower probability of p2016 insta teamkilling. Add logic to fired projectile instead of the gun.

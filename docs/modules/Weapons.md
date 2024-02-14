@@ -19,7 +19,9 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Now does significantly more damage against titans as well
 - No longer requires critical hits/weak point damage to hurt titans
 ### Car SMG
-- Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans
+- Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans'
+### R-97
+- Causes enemies killed by it to explode
 ### Softball
 - Increased grenade explosion radius
 - Increased grenade explosion damage
