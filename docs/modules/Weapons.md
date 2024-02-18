@@ -18,6 +18,8 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Increased maximum fire rate
 - Now does significantly more damage against titans as well
 - No longer requires critical hits/weak point damage to hurt titans
+### R-201
+- Gives the user rockets while rodeoing a friendly titan. Primary usage is to be an anti-titan turret while chilling on a friend :)
 ### Car SMG
 - Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans'
 ### R-97

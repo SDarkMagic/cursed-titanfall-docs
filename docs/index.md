@@ -24,12 +24,14 @@ Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Modu
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
 - [ ] wingman elite failing to handle on fire properly
 - [ ] Colony crashes wave 5 at ~74 enemies remaining
+- [ ] Blisk is still rodeoable?
 - [ ] boss titans not spawning when more than one is present in the waves
 - [ ] Wingman elite still using modified kraber OnPrimaryAttack function
 - [x] Viper insta-dying on kodai
 - [ ] Devotion missing reload activity on server causing a crash
 - [x] Devotion firerate is too high; Causes server side warning, and must be under .2f
 - [ ] Player dies to spitfire failure to get load screen tip
+- [ ] grunts might have guaranteed p2016 team wipe
 - [x] Elite northstar trying to execute player
 - [x] Boss titan reset health loop attempting to set health even if the entity is dead
 - [ ] Server boot error:
@@ -49,6 +51,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [x] Spitfire broke again - Ion vortex shield refire issue when attempting to attach projectile to enemies
 - [ ] Tether traps instantly dooming nuke titans?
 - [ ] Enemy spawned prowlers cause crash on wave reset
+- [ ] Disembarking while hover is active with viper thrusters by moving to a higher location so it registers as standing. Should just need an `IsValid` check on the weapon
 - [ ] *FUNCTION [RemoveMod()] weapons/mp_titanability_hover.nut line [74]
 *FUNCTION [unknown()] weapons/mp_titanability_hover.nut line [141] - entity is null
 - [x] Arc Titans causing crashes after giving ronin passive (have not been able to replicate since)
@@ -60,10 +63,12 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Boost to summon a reaper. Reaper kills count for player.
 - [ ] Northstar gets cloaking ability
 - [ ] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
-- [ ] Give tone passive sonar in a radius around her
+- [x] Give tone passive sonar in a radius around her (Tied to primary weapon fire)
 - [ ] give thunderbolt `DF_RAGDOLL`
 - [ ] Cold war shoots batteries sometimes
-- [ ] Replace an AR with flightcore rockets
+- [x] Remove 3-round capacity limit for burst fire kit on tone
+- [x] Replace an AR with flightcore rockets
+- [ ] Maintain R201 loadout when swapping back from rodeo-ing
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
 - [ ] Add monarch heal rounds to heal score callback
 - [ ] Add client side RUI for energy transfer health pool
@@ -80,7 +85,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] Allow lockons to boss titans (probably a client side change)
 - [ ] Allow nuke eject to trigger before doomed state
 - [ ] Smr missiles delayed immediately after firing. Stall in air then rapidly accelerate to deal more damage.
-- [ ] Allow archer to lock onto players (This may need to be a client side change unfortunately)
+- [x] Allow archer to lock onto players (This may need to be a client side change unfortunately) | Done by MasterLiberty and has been added to the mod with permission
 - [ ] Smart pistol misses every shot while locked on
 - [ ] Tighten eva8 spread. Shift fire offset to br akward. More ideal have the reticle be passed through a perspective transform to align with whatever plane the player is currently targetting. Projectiles shoot at an angle rather than just starting from an offset.
 - [ ] Disable collision on friendly reapers
@@ -105,7 +110,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 	- [ ] muzzle flash effects
 	- [ ] Grenade model/effects?
 	- [ ] General functionality
-- [ ] Reaper global stack
+- [x] Reaper global stack
 - [ ] Ronin gets to parry
 - [x] Add 25 tick limit
 - [x] Ronin with Thunderstorm passive is now an arc titan

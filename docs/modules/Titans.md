@@ -10,6 +10,9 @@
 - The core 1 upgrade, energy transfer, now additionally gives monarch a reserve health pool with an equal value to your max health. This pool will increase in size if you use the core 3 upgrade enhanced chassis. This pool does not directly affect monarch's health bar, however if it has any points in it, shooting a teammate's titan with your primary weapon will now allow you to heal them. The health points in this pool are refilled by dealing damage to enemies with monarch's primary weapon. Additionally, the health value restored to friendly titans is loosely based on the amount of damage the shot would do, meaning you can get crit heals by shooting friendly titan's weak points
 ### Ion
 - Laser tripwire now lasts for 30 seconds before despawning
+### Tone
+- Burst shot mod now has a max burst size of 12 shots
+- A small sonar pulse is created at the user's position when firing the tracker cannon. This can be used to quickly acquire locks when surrounded by multiple enemies
 ### Scorch
 - Scorch will no longer take damage when standing in his own fire, regardless of the kit you have equipped
 - The tempered plating kit now provides scorch with shield regeneration when standing in your own fire. **Please note:** You can still take damage from your incendiary traps explosion if using them to recharge shields. This explosion has a hitbox at both the start and end of the traps burn time
