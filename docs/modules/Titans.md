@@ -16,6 +16,7 @@
 ### Scorch
 - Scorch will no longer take damage when standing in his own fire, regardless of the kit you have equipped
 - The tempered plating kit now provides scorch with shield regeneration when standing in your own fire. **Please note:** You can still take damage from your incendiary traps explosion if using them to recharge shields. This explosion has a hitbox at both the start and end of the traps burn time
+- When becoming doomed for the first time, scorch will now automatically undoom and regen two bars of health while creating a fiery explosion around himself
 ### Northstar
 - The hover movement speed that was previously provided by the viper thruster's kit is now the default movement speed when using hover
 - Viper thrusters now converts the hover ability into a toggle with a max flight time of 30 seconds.

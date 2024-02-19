@@ -22,7 +22,7 @@ This mod is divided into different sub modules to allow for easier control of th
 Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Module]] features? Suggest a new feature or idea to add to the mod through [this google form](https://forms.gle/2BXSoWrouU7uV8Hw6)
 ## Known Bugs
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
-- [ ] wingman elite failing to handle on fire properly
+- [x] wingman elite failing to handle on fire properly
 - [ ] Colony crashes wave 5 at ~74 enemies remaining
 - [ ] Blisk is still rodeoable?
 - [ ] boss titans not spawning when more than one is present in the waves
@@ -62,6 +62,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
 - [ ] Northstar gets cloaking ability
+- [ ] Smart core predator cannon grunts
 - [ ] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
 - [x] Give tone passive sonar in a radius around her (Tied to primary weapon fire)
 - [ ] give thunderbolt `DF_RAGDOLL`
@@ -72,7 +73,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
 - [ ] Add monarch heal rounds to heal score callback
 - [ ] Add client side RUI for energy transfer health pool
-- [ ] Phoenix kit for scorch
+- [x] Phoenix kit for scorch
 - [ ] Nuke Core titan
 	- [ ] Core ability is equivalent to a nuke eject explosion, however the titan does not get destroyed
 	- [ ] thermal shield for tactical?
