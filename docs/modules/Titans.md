@@ -1,5 +1,6 @@
 # Titans
 ------------
+The overall philosophy behind the majority of the titan changes is to further incentivize players to lean into their preferred playstyles and respective rolls. For example, to encourage players to play more aggressively and up close, performing an execution with ronin will allow the player to heal slightly. 
 ## Features
 ----------------
 ### Monarch
@@ -11,6 +12,7 @@
 ### Ion
 - Laser tripwire now lasts for 30 seconds before despawning
 - Damage from energy weapons or electrical/arc sources is now absorbed and recharges Ion's energy meter
+- The `Split Shot Power` aegis upgrade now causes damaging enemies with the splitter rifle to refill Ion's energy
 ### Tone
 - Burst shot mod now has a max burst size of 12 shots
 - A small sonar pulse is created at the user's position when firing the tracker cannon. This can be used to quickly acquire locks when surrounded by multiple enemies

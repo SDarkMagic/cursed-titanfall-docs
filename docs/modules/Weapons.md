@@ -21,7 +21,7 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 ### R-201
 - Gives the user rockets while rodeoing a friendly titan. Primary usage is to be an anti-titan turret while chilling on a friend :)
 ### Car SMG
-- Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans'
+- Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans
 ### R-97
 - Causes enemies killed by it to explode
 ### Softball
@@ -55,7 +55,6 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 	- *Note*: The teleport function will move you to a point slightly behind where you hit with the shot. This means if you accidentally clip through a wall, you can a nearby surface opposite the direction you would like to be moved and potentially move back in bounds
 ### Kraber
 - Now has a 1/15 chance to instakill the user when fired
-- *Warning*: Due to how the game handles the Wingman Elite, it shares the same fire function with the kraber. This means this instakill chance occurs when firing it. I plan on fixing this in a later update
 ### P2016
 - No longer does damage when hitting an enemy
 - Has a random chance of killing the user and publicly shaming them when hitting an enemy (1/5)
