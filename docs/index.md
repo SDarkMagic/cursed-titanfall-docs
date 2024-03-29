@@ -77,12 +77,12 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
-- [ ] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
+- [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
 - [ ] Northstar gets cloaking ability
 - [ ] Re-45 applies stim effect while drawn
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
-- [ ] Retime boss titan on kodai
+- [x] Retime boss titan on kodai
 - [ ] Lower pilot r201 damage
 - [ ] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
 - [x] Give tone passive sonar in a radius around her (Tied to primary weapon fire)

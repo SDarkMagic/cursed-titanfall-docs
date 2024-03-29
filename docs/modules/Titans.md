@@ -13,6 +13,7 @@ The overall philosophy behind the majority of the titan changes is to further in
 - Laser tripwire now lasts for 30 seconds before despawning
 - Damage from energy weapons or electrical/arc sources is now absorbed and recharges Ion's energy meter
 - The `Split Shot Power` aegis upgrade now causes damaging enemies with the splitter rifle to refill Ion's energy
+- Ion no longer uses ammo. All shots fired from the primary weapon will instead drain from her energy pool. This may need to be later balanced further as it was designed around the FD aegis upgrades
 ### Tone
 - Burst shot mod now has a max burst size of 12 shots
 - A small sonar pulse is created at the user's position when firing the tracker cannon. This can be used to quickly acquire locks when surrounded by multiple enemies
