@@ -22,6 +22,7 @@ This mod is divided into different sub modules to allow for easier control of th
 Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Module]] features? Suggest a new feature or idea to add to the mod through [this google form](https://forms.gle/2BXSoWrouU7uV8Hw6)
 ## Known Bugs
 - [x] Spitfire projectiles causing error when caught by ion vortex shield
+- [ ] Killing enemy pilots while they are lobotomizing a titan crashes the server
 - [x] wingman elite failing to handle on fire properly
 - [ ] Colony crashes wave 5 at ~74 enemies remaining
 - [ ] Blisk is still rodeoable?
@@ -78,7 +79,7 @@ nswrap: waiting for children to exit```
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
 - [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
-- [ ] Northstar gets cloaking ability
+- [x] Northstar gets cloaking ability
 - [ ] Re-45 applies stim effect while drawn
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
@@ -110,7 +111,7 @@ nswrap: waiting for children to exit```
 - [x] Allow archer to lock onto players (This may need to be a client side change unfortunately) | Done by MasterLiberty and has been added to the mod with permission
 - [ ] Smart pistol misses every shot while locked on
 - [ ] Tighten eva8 spread. Shift fire offset to br akward. More ideal have the reticle be passed through a perspective transform to align with whatever plane the player is currently targetting. Projectiles shoot at an angle rather than just starting from an offset.
-- [ ] Disable collision on friendly reapers
+- [x] Disable collision on friendly reapers
 - [x] Remove hacked reapers from spawned npc array? (Done by FD on leeched callback)
 - [ ] change minimap icon color for friendly reapers
 - [ ] A-wall no longer a deployable. Attach to player position and offset forward. Remain active for a set duration shrink size partially (Zanieon has already figured this out, either ask for details or wait until it gets added to fork)
@@ -132,6 +133,7 @@ nswrap: waiting for children to exit```
 	- [ ] muzzle flash effects
 	- [ ] Grenade model/effects?
 	- [ ] General functionality
+		- [ ] Current issue seems to be with the seekers spawning within one another, immediately triggering their damage callback
 - [x] Reaper global stack
 - [ ] Ronin gets to parry
 - [x] Add 25 tick limit
