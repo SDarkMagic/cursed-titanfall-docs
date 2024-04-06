@@ -28,6 +28,7 @@ The overall philosophy behind the majority of the titan changes is to further in
 ### Ronin
 - The thunderstorm kit now additionally gives ronin an arc field similar to what the arc titans from frontier defense have
 - Performing an execution on an enemy titan as ronin will now give the player performing the execution a battery upon completion, similar to how monarch's energy thief kit works
+- Pressing guard right before being hit by an enemy titan melee will allow you to parry. If you have 25% core meter or higher, 25% will be consumed and the attacker will be force executed regardless of health. *Does not work on boss titans*
 ### Legion
 - Legion takes approximately 1/3 less damage from all damage sources as opposed to vanilla
 - Additionally, taking damage as legion, either to health **or** shields will refill the predator cannon ammo based on the amount of damage taken

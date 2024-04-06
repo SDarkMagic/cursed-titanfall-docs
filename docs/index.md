@@ -27,12 +27,12 @@ Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Modu
 - [ ] Colony crashes wave 5 at ~74 enemies remaining
 - [ ] Blisk is still rodeoable?
 - [ ] boss titans not spawning when more than one is present in the waves
-- [ ] Wingman elite still using modified kraber OnPrimaryAttack function
+- [x] Wingman elite still using modified kraber OnPrimaryAttack function
 - [x] Viper insta-dying on kodai
 - [ ] Devotion missing reload activity on server causing a crash
 - [x] Devotion firerate is too high; Causes server side warning, and must be under .2f
 - [ ] Player dies to spitfire failure to get load screen tip
-- [ ] grunts might have guaranteed p2016 team wipe
+- [x] grunts might have guaranteed p2016 team wipe
 - [x] Elite northstar trying to execute player
 - [x] Boss titan reset health loop attempting to set health even if the entity is dead
 - [ ] NPC softball e smoke does no damage
@@ -51,7 +51,7 @@ WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 [05:12:30] [NORTHSTAR] [info] Running custom SERVER script callback "DropPodSpawn_Init"
 ```
 - [x] Spitfire broke again - Ion vortex shield refire issue when attempting to attach projectile to enemies
-- [ ] Tether traps instantly dooming nuke titans?
+- [x] Tether traps instantly dooming nuke titans?
 - [ ] boss titans still rodeoable sometimes
 - [ ] ```[05:05:06] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Die: passing in projectile as attacker
 [05:05:06] [SCRIPT SV] [info]  -> target.Die()
@@ -78,14 +78,16 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
+- [x] Allow dashing while using laser core
 - [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
 - [x] Northstar gets cloaking ability
 - [ ] Re-45 applies stim effect while drawn
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
+- [ ] Make reaper warpfall on core 3 upgrade a random chance event
 - [x] Retime boss titan on kodai
-- [ ] Lower pilot r201 damage
-- [ ] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
+- [x] Lower pilot r201 damage
+- [x] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
 - [x] Give tone passive sonar in a radius around her (Tied to primary weapon fire)
 - [ ] give thunderbolt `DF_RAGDOLL`
 - [ ] Cold war shoots batteries sometimes
