@@ -23,7 +23,7 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 ### Car SMG
 - Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans
 ### R-97
-- Causes enemies killed by it to explode
+- Causes enemies killed by it to explode with the explosion dealing damage equal to 3 times the killed enemies health. This means that killing enemies with more health with it will produce higher damage explosions with the same general blast radius.
 ### Softball
 - Increased grenade explosion radius
 - Increased grenade explosion damage
@@ -46,7 +46,7 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Deals increased damage
 - Capable of damaging titans regardless of whether it's a crit hit
 - On client uses ion laser effect and sounds for firing
-- hitscan
+- Hitscan
 ### Spitfire
 - Creates a thermite burn source on impact
 - Canonically accurate to the name now
@@ -54,7 +54,8 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Teleports the player to the shot target. This includes out of bounds you have been warned
 	- *Note*: The teleport function will move you to a point slightly behind where you hit with the shot. This means if you accidentally clip through a wall, you can a nearby surface opposite the direction you would like to be moved and potentially move back in bounds
 ### Kraber
-- Now has a 1/15 chance to instakill the user when fired
+- Fires explosive rounds similar to Tone's splasher round aegis upgrade
+- 50% chance for every magazine to contain a bullet that can misfire. The chance of the misfire increases the more shots you make.
 ### P2016
 - No longer does damage when hitting an enemy
 - Has a random chance of killing the user and publicly shaming them when hitting an enemy (1/5)
