@@ -78,13 +78,20 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
+- [ ] Vortex shield at close range absorbs enemy titan shields
+- [ ] Re-implement devotion overheat mechanic
+- [ ] Add effects and sound for ronin parry activation and duration of parry window
+- [ ] Replace monarch energy field upgrade with sword
+- [ ] Figure out if it's possible to show sword melee animation and model on all titan classes exclusively server side (probably not)
+- [ ] Increase parry window time to compensate for player lag
 - [x] Allow dashing while using laser core
 - [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
 - [x] Northstar gets cloaking ability
 - [ ] Re-45 applies stim effect while drawn
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
-- [ ] Make reaper warpfall on core 3 upgrade a random chance event
+- [x] Make reaper warpfall on core 3 upgrade a random chance event
+- [x] Remove friendly collision on prowlers
 - [x] Retime boss titan on kodai
 - [x] Lower pilot r201 damage
 - [x] Ion absorbs energy/electric damage and recharges either shields or energy meter from them - use in tandem with shield idea
@@ -135,9 +142,9 @@ nswrap: waiting for children to exit```
 	- [ ] muzzle flash effects
 	- [ ] Grenade model/effects?
 	- [ ] General functionality
-		- [ ] Current issue seems to be with the seekers spawning within one another, immediately triggering their damage callback
+		- [x] Current issue seems to be with the seekers spawning within one another, immediately triggering their damage callback
 - [x] Reaper global stack
-- [ ] Ronin gets to parry
+- [x] Ronin gets to parry
 - [x] Add 25 tick limit
 - [x] Ronin with Thunderstorm passive is now an arc titan
 - [x] Lower probability of p2016 insta teamkilling. Add logic to fired projectile instead of the gun.
