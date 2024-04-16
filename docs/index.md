@@ -69,6 +69,7 @@ nswrap: killing xvfb
 nswrap: waiting for children to exit```
 - [ ] Enemy spawned prowlers cause crash on wave reset
 - [ ] Disembarking while hover is active with viper thrusters by moving to a higher location so it registers as standing. Should just need an `IsValid` check on the weapon
+- [ ] Kraber bullets crash when in vortex shield
 - [ ] *FUNCTION [RemoveMod()] weapons/mp_titanability_hover.nut line [74]
 *FUNCTION [unknown()] weapons/mp_titanability_hover.nut line [141] - entity is null
 - [x] Arc Titans causing crashes after giving ronin passive (have not been able to replicate since)
@@ -78,6 +79,11 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
+- [ ] Having enhanced payload kit on northstar causes flightcore to shoot cluster missiles
+- [ ] Trace Rifle L-Star
+- [ ] Fix issue where player spawned prowlers are damageable by the owner
+- [ ] Add gacha pull animation to the p2016 on hit
+- [ ] EnableDoomed on enemies if titan when triggering team wipe. Also use Die instead of TakeDamage to circumvent damage scaling by mode
 - [ ] Vortex shield at close range absorbs enemy titan shields
 - [ ] Re-implement devotion overheat mechanic
 - [ ] Add effects and sound for ronin parry activation and duration of parry window
