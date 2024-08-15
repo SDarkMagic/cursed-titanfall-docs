@@ -25,6 +25,7 @@ The overall philosophy behind the majority of the titan changes is to further in
 - The hover movement speed that was previously provided by the viper thruster's kit is now the default movement speed when using hover
 - Viper thrusters now converts the hover ability into a toggle with a max flight time of 30 seconds.
 - Player northstar's gain a personal cloak drone that follows them. When killed, the drone will respawn after a while. Functions very similarly to the cloak drones in Frontier Defense
+- Equipping the Enhanced Payload kit now additionally causes flightcore to fire cluster missiles
 ### Ronin
 - The thunderstorm kit now additionally gives ronin an arc field similar to what the arc titans from frontier defense have
 - Performing an execution on an enemy titan as ronin will now give the player performing the execution a battery upon completion, similar to how monarch's energy thief kit works

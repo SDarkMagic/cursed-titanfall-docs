@@ -79,11 +79,17 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
-- [ ] Having enhanced payload kit on northstar causes flightcore to shoot cluster missiles
+- [ ] Override elite nuke eject code on boss titans
+- [x] Add guardian blocks on p2016 for NPC fire events to check if hit entity is a player
+- [ ] smg grants batt on reload if damage threshold is met
+- [ ] Give Kraber Northstar Railgun damage output, remove chance of misfire on first shot
+- [ ] Charge time on double take, fires two bolts on release in quick succession for big damage
+- [x] Having enhanced payload kit on northstar causes flightcore to shoot cluster missiles
 - [ ] Trace Rifle L-Star
+- [ ] Markiplier intro after the "Who's Mark" line plays
 - [ ] Fix issue where player spawned prowlers are damageable by the owner
 - [ ] Add gacha pull animation to the p2016 on hit
-- [ ] EnableDoomed on enemies if titan when triggering team wipe. Also use Die instead of TakeDamage to circumvent damage scaling by mode
+- [x] EnableDoomed on enemies if titan when triggering team wipe. Also use Die instead of TakeDamage to circumvent damage scaling by mode
 - [ ] Vortex shield at close range absorbs enemy titan shields
 - [ ] Re-implement devotion overheat mechanic
 - [ ] Add effects and sound for ronin parry activation and duration of parry window
