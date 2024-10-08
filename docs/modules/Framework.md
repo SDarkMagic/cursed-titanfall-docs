@@ -23,3 +23,6 @@ A full list of the available registration functions is as follows:
 - `AddCallback_OnProjectileCollision_weapon_wingman`
 - `AddCallback_OnPrimaryAttackPlayer_weapon_lmg`
 - `AddCallback_OnBulletHit_weapon_lmg` (Please note this function passes a weapon `entity` and a `WeaponBulletHitParams` object )
+- `AddCallback_OnWeaponPrimaryAttackPlayer_weapon_alternator_smg`
+- `AddCallback_OnWeaponReload_weapon_alternator_smg`
+- `AddRandomEventCallback_FragGrenade`

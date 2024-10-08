@@ -35,7 +35,6 @@ Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Modu
 - [x] grunts might have guaranteed p2016 team wipe
 - [x] Elite northstar trying to execute player
 - [x] Boss titan reset health loop attempting to set health even if the entity is dead
-- [ ] NPC softball e smoke does no damage
 - [ ] Server boot error:
  ```
 [05:12:29] [NORTHSTAR] [info] Running custom SERVER script callback "S2S_DropshipInit"
@@ -68,8 +67,9 @@ nswrap: northstar exited with status 3
 nswrap: killing xvfb
 nswrap: waiting for children to exit```
 - [ ] Enemy spawned prowlers cause crash on wave reset
-- [ ] Disembarking while hover is active with viper thrusters by moving to a higher location so it registers as standing. Should just need an `IsValid` check on the weapon
+- [x] Disembarking while hover is active with viper thrusters by moving to a higher location so it registers as standing. Should just need an `IsValid` check on the weapon
 - [ ] Kraber bullets crash when in vortex shield
+- [x] ![[Pasted image 20240927182905.png]]
 - [ ] *FUNCTION [RemoveMod()] weapons/mp_titanability_hover.nut line [74]
 *FUNCTION [unknown()] weapons/mp_titanability_hover.nut line [141] - entity is null
 - [x] Arc Titans causing crashes after giving ronin passive (have not been able to replicate since)
@@ -79,13 +79,22 @@ nswrap: waiting for children to exit```
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
-- [ ] Override elite nuke eject code on boss titans
+- [ ] Burst fire on predator cannon close range power shot fire
+- [ ] Replace laser tripwire with a temporary arc field that drains enemy shields and converts it them to energy for ion (Probably an aegis upgrade since shields are more common in FD)
+- [ ] Celebratory effect when spawning weapon from frag
+- [x] Nuke Eject has a gravitational field around it when activated (only on ogre chassis)
+- [x] Increase Kraber Crit damage
+- [x] Increase crit damage for northstar when using the threat optics kit
+- [x] Enhanced Payload flightcore clusters do less damage and last for a shorter duration
+- [x] Ronin melee parry costs 10% core charge per rounded cell of HP the enemy has to auto execute
+- [x] Override elite nuke eject code on boss titans
 - [x] Add guardian blocks on p2016 for NPC fire events to check if hit entity is a player
-- [ ] smg grants batt on reload if damage threshold is met
-- [ ] Give Kraber Northstar Railgun damage output, remove chance of misfire on first shot
+- [x] smg grants batt on reload if damage threshold is met
+- [x] Give Kraber Northstar Railgun damage output, remove chance of misfire on first shot
 - [ ] Charge time on double take, fires two bolts on release in quick succession for big damage
 - [x] Having enhanced payload kit on northstar causes flightcore to shoot cluster missiles
 - [ ] Trace Rifle L-Star
+- [ ] Manually reloading the alternator will cause the player to phase for the duration of the reload animation. Refund ammo to the magazine on critical hits for more control of when this phase occurs.
 - [ ] Markiplier intro after the "Who's Mark" line plays
 - [ ] Fix issue where player spawned prowlers are damageable by the owner
 - [ ] Add gacha pull animation to the p2016 on hit
@@ -93,13 +102,14 @@ nswrap: waiting for children to exit```
 - [ ] Vortex shield at close range absorbs enemy titan shields
 - [ ] Re-implement devotion overheat mechanic
 - [ ] Add effects and sound for ronin parry activation and duration of parry window
-- [ ] Replace monarch energy field upgrade with sword
 - [ ] Figure out if it's possible to show sword melee animation and model on all titan classes exclusively server side (probably not)
+- [ ] Limit amount of particle effects that can be caused simultaneously by weapons like the smr and spitfire to reduce client lag
 - [ ] Increase parry window time to compensate for player lag
 - [x] Allow dashing while using laser core
 - [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
 - [x] Northstar gets cloaking ability
 - [ ] Re-45 applies stim effect while drawn
+- [ ] Landing hits with the Re-45 will return a round to the magazine. Kills with this weapon will grant a stacking damage bonus until it is reloaded
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
 - [x] Make reaper warpfall on core 3 upgrade a random chance event
@@ -127,7 +137,7 @@ nswrap: waiting for children to exit```
 	- [ ] Primary is a close range explosion? Potentially just punching but add an explosion on impact?
 - [ ] Warp core titan
 - [ ] Allow lockons to boss titans (probably a client side change)
-- [ ] Allow nuke eject to trigger before doomed state
+- [x] Allow nuke eject to trigger before doomed state
 - [ ] Smr missiles delayed immediately after firing. Stall in air then rapidly accelerate to deal more damage.
 - [x] Allow archer to lock onto players (This may need to be a client side change unfortunately) | Done by MasterLiberty and has been added to the mod with permission
 - [ ] Smart pistol misses every shot while locked on

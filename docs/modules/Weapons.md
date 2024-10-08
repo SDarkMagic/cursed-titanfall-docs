@@ -19,11 +19,16 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Now does significantly more damage against titans as well
 - No longer requires critical hits/weak point damage to hurt titans
 ### R-201
-- Gives the user rockets while rodeoing a friendly titan. Primary usage is to be an anti-titan turret while chilling on a friend :)
+- Gives the user flightcore salvo rockets while rodeoing a friendly titan. Primary usage is to be an anti-titan turret while chilling on a friend :)
+### Alternator
+- Reloading causes the user to phase shift for a portion of the reload based on the percent of the magazine consumed before reloading.
 ### Car SMG
 - Applies knockback when hitting an entity. This effect is more noticeable on larger enemies, such as titans
 ### R-97
 - Causes enemies killed by it to explode with the explosion dealing damage equal to 3 times the killed enemies health. This means that killing enemies with more health with it will produce higher damage explosions with the same general blast radius.
+### Volt
+- Deals damage when attacking titans regardless of critical hits
+- After dealing 2500+ damage, reloading grants a battery
 ### Softball
 - Increased grenade explosion radius
 - Increased grenade explosion damage
@@ -56,10 +61,11 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 ### Kraber
 - Fires explosive rounds similar to Tone's splasher round aegis upgrade
 - 50% chance for every magazine to contain a bullet that can misfire. The chance of the misfire increases the more shots you make.
+- Significantly increased critical damage to titans
 ### P2016
 - No longer does damage when hitting an enemy
-- Has a random chance of killing the user and publicly shaming them when hitting an enemy (1/5)
-- When hitting an enemy, there is a 1/~48 chance to kill every enemy on the enemy team excluding titans. Titans take one entire health bar worth of damage, meaning if they are doomed they will die, otherwise they become doomed.
+- Has a random chance of killing the user and publicly shaming them when hitting an enemy
+- When hitting an enemy, there is a 1/~48 chance to kill every enemy on the enemy team.
 	- *Warning*: Due to how the functions used internally to get the enemies work, if an entity is being spawned when this kill all event occurs, it may cause a server crash
 ### Arc Grenade
 - No longer damages spectres or reapers
@@ -71,4 +77,4 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Pushes the user backwards when fired
 ### Thunderbolt
 - Drags enemies along with the projectile now
-- Equipping the Pro Screen causes the user to also be pulled along with the projectile
+- Equipping the Pro Screen mod causes the user to also be pulled along with the projectile
