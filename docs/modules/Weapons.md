@@ -20,6 +20,8 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - No longer requires critical hits/weak point damage to hurt titans
 ### R-201
 - Gives the user flightcore salvo rockets while rodeoing a friendly titan. Primary usage is to be an anti-titan turret while chilling on a friend :)
+### Flatline
+- Heals the wielder on kill for 50% of the victim's health, up to the player's maximum health
 ### Alternator
 - Reloading causes the user to phase shift for a portion of the reload based on the percent of the magazine consumed before reloading.
 ### Car SMG
@@ -67,6 +69,9 @@ If a weapon does not have a unique script in the vanilla game, the script for it
 - Has a random chance of killing the user and publicly shaming them when hitting an enemy
 - When hitting an enemy, there is a 1/~48 chance to kill every enemy on the enemy team.
 	- *Warning*: Due to how the functions used internally to get the enemies work, if an entity is being spawned when this kill all event occurs, it may cause a server crash
+### RE-45 Auto
+- Applies a stim effect to the player when drawn.
+	- *Note:* Stim has a slightly lower potency than the stim pilot ability to not negate the usage of that ability
 ### Arc Grenade
 - No longer damages spectres or reapers
 - Hacks hit reapers

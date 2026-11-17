@@ -32,11 +32,18 @@ Have a feature idea you don't see in the [[#Todo]] or individual [[#Modules|Modu
 - [ ] Devotion missing reload activity on server causing a crash
 - [x] Devotion firerate is too high; Causes server side warning, and must be under .2f
 - [ ] Player dies to spitfire failure to get load screen tip
+- [ ] [2024-10-11] [15:50:09] [SCRIPT SV] [info] Firing seeker for graviton
+[2024-10-11] [15:50:09] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Expected type "int", found type "float"
+[2024-10-11] [15:50:09] [SCRIPT SV] [info]  -> int missileSpeed = expect int(SmartAmmo_GetMissileSpeed( weapon ))
+[2024-10-11] [15:50:09] [SCRIPT SV] [info] 
+CALLSTACK
+*FUNCTION [SmartAmmo_FireWeapon_HomingMissile()] sh_graviton_lance.nut line [68]
+*FUNCTION [GravitonHitTarget()] sh_graviton_lance.nut line [157]```
 - [x] grunts might have guaranteed p2016 team wipe
 - [x] Elite northstar trying to execute player
 - [x] Boss titan reset health loop attempting to set health even if the entity is dead
 - [ ] Server boot error:
- ```
+
 [05:12:29] [NORTHSTAR] [info] Running custom SERVER script callback "S2S_DropshipInit"
 [05:12:30] [NORTHSTAR] [info] Running custom SERVER script callback "NorthstarCustomPrecache"
 [05:12:30] [NORTHSTAR] [info] [DEDICATED SERVER] Error: [1]
@@ -48,11 +55,10 @@ WeaponData, (*RUI_CrosshairData*), (*Crosshair_2*),
 WeaponData, RUI_CrosshairData, Crosshair_1, Element0,
 
 [05:12:30] [NORTHSTAR] [info] Running custom SERVER script callback "DropPodSpawn_Init"
-```
 - [x] Spitfire broke again - Ion vortex shield refire issue when attempting to attach projectile to enemies
 - [x] Tether traps instantly dooming nuke titans?
 - [ ] boss titans still rodeoable sometimes
-- [ ] ```[05:05:06] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Die: passing in projectile as attacker
+- [ ] [05:05:06] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Die: passing in projectile as attacker
 [05:05:06] [SCRIPT SV] [info]  -> target.Die()
 [05:05:06] [SCRIPT SV] [info]
 CALLSTACK
@@ -69,6 +75,8 @@ nswrap: waiting for children to exit```
 - [ ] Enemy spawned prowlers cause crash on wave reset
 - [x] Disembarking while hover is active with viper thrusters by moving to a higher location so it registers as standing. Should just need an `IsValid` check on the weapon
 - [ ] Kraber bullets crash when in vortex shield
+- [x] mp_wargames_fd.nut invalid shop position
+- [ ] Northstar cloak drone doesn't reset when losing a wave in FD
 - [x] ![[Pasted image 20240927182905.png]]
 - [ ] *FUNCTION [RemoveMod()] weapons/mp_titanability_hover.nut line [74]
 *FUNCTION [unknown()] weapons/mp_titanability_hover.nut line [141] - entity is null
@@ -77,10 +85,33 @@ nswrap: waiting for children to exit```
     [02:29:14] [SCRIPT SV] [info] SCRIPT ERROR: [SERVER] Entity is null
 	[02:29:14] [SCRIPT SV] [info]  -> titan.EndSignal( "OnDeath" )
 	[02:29:14] [SCRIPT SV] [info] ai/_ai_emp_titans.gnut line[25]
+	
+
 ## Todo
 - [ ] Boost to summon a reaper. Reaper kills count for player.
+- [x] Sonar pulse kit for tone puts a grav field on sonar pulse position
+- [ ] Particle wall kit for tone gives dome shield permeable from inside
+- [ ] Tone Rocket barrage kit rolls rocket damage randomly
+- [ ] Scorch Rocket jump
+- [ ] Increase thermite duration with scorched earth
+- [ ] Monarch wallrun
+- [ ] Monarch grapple
+- [ ] Transition entity limit arrays to Script Managed Entity Arrays (`CreateScriptManagedEntArray`)
+- [ ] extended mag double barrel
 - [ ] Burst fire on predator cannon close range power shot fire
 - [ ] Replace laser tripwire with a temporary arc field that drains enemy shields and converts it them to energy for ion (Probably an aegis upgrade since shields are more common in FD)
+- [ ] Jiggle Physics
+- [ ] Ronin counter costs twice as much core charge per cell against players
+- [ ] Add warning when players attack invuln boss titan
+- [ ] Ion drains shields to fire primary when out of energy
+	- [ ] This will need some form of flag to toggle draining just shields for a duration so that energy can regen while shooting
+- [ ] Add compound interest to FD
+	- [ ] Use functions found in `sh_boost_store.gnut`
+	- [ ] Money seems to be capped to 5000 credits
+- [x] Flatline heals on kill
+- [x] Convert northstar permanent cloak drone to an aegis upgrade
+	- [ ] Currently tied to aegis upgrades simply being active
+- [ ] Fix titan spawn for player on complex in FD
 - [ ] Celebratory effect when spawning weapon from frag
 - [x] Nuke Eject has a gravitational field around it when activated (only on ogre chassis)
 - [x] Increase Kraber Crit damage
@@ -108,7 +139,7 @@ nswrap: waiting for children to exit```
 - [x] Allow dashing while using laser core
 - [x] Particle accelerator primary fire drains energy instead of using ammo. Hitting targets regenerates energy. Using the ADS shots uses more energy.
 - [x] Northstar gets cloaking ability
-- [ ] Re-45 applies stim effect while drawn
+- [x] Re-45 applies stim effect while drawn
 - [ ] Landing hits with the Re-45 will return a round to the magazine. Kills with this weapon will grant a stacking damage bonus until it is reloaded
 - [ ] Smart core predator cannon grunts
 - [ ] Random chance of spawning on the enemy team when joining in frontier defense
@@ -122,7 +153,7 @@ nswrap: waiting for children to exit```
 - [ ] Cold war shoots batteries sometimes
 - [x] Remove 3-round capacity limit for burst fire kit on tone
 - [x] Replace an AR with flightcore rockets
-- [ ] Maintain R201 loadout when swapping back from rodeo-ing
+- [x] Maintain R201 loadout when swapping back from rodeo-ing
 - [ ] A-wall applies flat damage multiplier rather than adding amped flag
 - [ ] Add monarch heal rounds to heal score callback
 - [ ] Add client side RUI for energy transfer health pool
